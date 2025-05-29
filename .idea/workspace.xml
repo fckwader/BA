@@ -10,6 +10,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -27,7 +30,8 @@
     "R.synth_eprd.R.executor": "Run",
     "R.synth_pima.R.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/weddb/Wader/BA/Datasets",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/weddb/Wader/BA",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -60,7 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1748538969752</updated>
       <workItem from="1748538970903" duration="2623000" />
-      <workItem from="1748543647050" duration="829000" />
+      <workItem from="1748543647050" duration="1119000" />
     </task>
     <servers />
   </component>
