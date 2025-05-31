@@ -11,13 +11,13 @@ yframe = None
 catIndexes = []
 boundary = 730
 
-def getBoundary():
+def get_boundary():
     bound = input("Specify decision boundary (default = 730):")
     if bound == "":
         return 730
     if not bound.isnumeric() or (bound.isnumeric() and int(bound) <= 0):
         print("Please specify numeric value > 0.")
-        return getBoundary()
+        return get_boundary()
     return int(bound)
 
 def categorize(n):
@@ -67,7 +67,7 @@ def get_file():
 
 fullframe = get_file()
 if dftype == "EPRD":
-    boundary = getBoundary()
+    boundary = get_boundary()
 preprocess()
 
 
