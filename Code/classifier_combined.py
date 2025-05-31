@@ -64,7 +64,6 @@ def get_file():
         return get_file()
 
 
-
 fullframe = get_file()
 if dftype == "EPRD":
     boundary = get_boundary()
@@ -72,9 +71,6 @@ preprocess()
 
 
 print("Class balance: ", sum(yframe.values.ravel()) / len(yframe.values.ravel()))
-
-
-
 
 
 tsplit = int(floor(0.8 * fullframe.shape[0]))
