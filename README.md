@@ -18,7 +18,7 @@ Similar pattern. File name ***path*** and percentage to impute ***percentage*** 
 
 
 ## 2. Datasets
-The "Datasets" folder contains all datasets used in the thesis. "EPRD" and "PIMA" denote the respective origin of the dataset, with the following permutations:
+The "Datasets" folder contains the PIMA Indians Diabetes datasets used in the thesis. Since we do not have licensing to redistribute the EPRD dataset, please contact Dr. Florian Hinterwimmer for requests (florian.hinterwimmer@tum.de). The following permutations of the dataset are available:
 - _MISSING: Dataset includes missing data.
 - _KNN: KNN-imputed dataset.
 - _MICE: MICE-imputed dataset.
